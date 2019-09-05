@@ -53,4 +53,4 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: [DEMO LINK](https://pastushenkovik.github.io/react_layout_miami//)
+Add link here: [DEMO LINK](https://pastushenkovik.github.io/react_layout_miami/)
