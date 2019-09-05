@@ -7,7 +7,7 @@ function Hero() {
           <div className="header">
             <div className="header__logo logo">
               <a className="logo__link" href="/">
-                <img className="logo__image" src="./images/logo.svg" alt="Miami logo" />
+                <img className="logo__image" src="images/logo.svg" alt="Miami logo" />
               </a>
             </div>
             <a href="tel:" className="header__phone">8 800 500 50 50</a>
