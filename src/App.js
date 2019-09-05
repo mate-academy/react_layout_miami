@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
-import Hero from './components/Hero';
-import SectionBest from './components/SectionBest';
+import Wrapper from './components/Wrapper';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="wrapper">
-      <Hero />
-      <SectionBest />
+    <div>
+      <Wrapper />
+      <Footer />
     </div>
   );
 }
