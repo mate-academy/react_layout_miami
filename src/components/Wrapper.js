@@ -4,16 +4,17 @@ import SectionBest from './SectionBest';
 import SectionGallery from './SectionGallery';
 import SectionConsultation from './SectionConsultation';
 import SectionTestimonials from './SectionTestimonials';
+import SectionContact from "./SectionContact";
 
 const Wrapper = () => {
   return (
-    <div className='wrapper'>
+    <div className="wrapper">
       <Hero />
       <SectionBest />
       <SectionGallery />
       <SectionConsultation />
       <SectionTestimonials />
-      <SectionConsultation />
+      <SectionContact />
     </div>
   );
 };
