@@ -11,7 +11,7 @@ function Testimonials() {
           <div className="testis">
             <div className="t">
               <div className="t__photo">
-                <img className="t__photo-image" src="/images/person__1.jpg" alt=""/>
+                <img className="t__photo-image" src="./images/person__1.jpg" alt=""/>
               </div>
               <h3 className="t__name">Stev Joni</h3>
               <div className="t__position">Founder Lucoil</div>
@@ -21,7 +21,7 @@ function Testimonials() {
             </div>
             <div className="t">
               <div className="t__photo">
-                <img className="t__photo-image" src="/images/person__2.jpg" alt=""/>
+                <img className="t__photo-image" src="./images/person__2.jpg" alt=""/>
               </div>
               <h3 className="t__name">Alisher Usmanov</h3>
               <div className="t__position">Ural Steel</div>
@@ -33,7 +33,7 @@ function Testimonials() {
             </div>
             <div className="t">
               <div className="t__photo">
-                <img className="t__photo-image" src="/images/person__3.jpg" alt=""/>
+                <img className="t__photo-image" src="./images/person__3.jpg" alt=""/>
               </div>
               <h3 className="t__name">Алексей Мордашов</h3>
               <div className="t__position">ГазПром</div>

@@ -11,10 +11,10 @@ function Gallery() {
           <div className="apart apart--mod-right">
             <div className="apart__photos">
               <div className="apart__photo">
-                <img className="apart__photo-image" src="/images/apart__1.jpg" alt=""/>
+                <img className="apart__photo-image" src="./images/apart__1.jpg" alt=""/>
               </div>
               <div className="apart__photo">
-                <img className="apart__photo-image" src="/images/apart__2.jpg" alt=""/>
+                <img className="apart__photo-image" src="./images/apart__2.jpg" alt=""/>
               </div>
             </div>
             <h2 className="apart__title">
@@ -27,10 +27,10 @@ function Gallery() {
           <div className="apart">
             <div className="apart__photos">
               <div className="apart__photo">
-                <img className="apart__photo-image" src="/images/apart__3.jpg" alt=""/>
+                <img className="apart__photo-image" src="./images/apart__3.jpg" alt=""/>
               </div>
               <div className="apart__photo">
-                <img className="apart__photo-image" src="/images/apart__4.jpg" alt=""/>
+                <img className="apart__photo-image" src="./images/apart__4.jpg" alt=""/>
               </div>
             </div>
             <h2 className="apart__title">
@@ -43,10 +43,10 @@ function Gallery() {
           <div className="apart apart--mod-left">
             <div className="apart__photos">
               <div className="apart__photo">
-                <img className="apart__photo-image" src="/images/apart__5.jpg" alt=""/>
+                <img className="apart__photo-image" src="./images/apart__5.jpg" alt=""/>
               </div>
               <div className="apart__photo">
-                <img className="apart__photo-image" src="/images/apart__6.jpg" alt=""/>
+                <img className="apart__photo-image" src="./images/apart__6.jpg" alt=""/>
               </div>
             </div>
             <h2 className="apart__title">
