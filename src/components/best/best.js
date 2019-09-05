@@ -17,7 +17,7 @@ function Best() {
             <ol>
               <li>The market leader in real estate since 2003</li>
               <li>Awards Real Estate Company, 2010, 2011, 2013</li>
-              <li>More than 200 satisfied customers premium segment</li>
+              <li>More than 200 satisfied customers premium segment!</li>
               <li>We focus only on new buildings and high-level
                 doskanalno know this area better than other specialists.
               </li>
