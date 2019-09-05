@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import './Media.scss';
 
 function Header() {
   return (
@@ -47,4 +48,4 @@ function Header() {
   );
 }
 
-export default App;
+export default Header;
