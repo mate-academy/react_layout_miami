@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 
-function App() {
+function Header() {
   return (
     <div className="hero">
       <div className="container">
@@ -10,7 +10,7 @@ function App() {
             8 800 500 50 50
           </a>
           <div className="header__logo">
-            <a href="#">
+            <a href="../App.js">
               <img
                 src="../images/logo.png"
                 alt="miami condo kings"
@@ -33,7 +33,7 @@ function App() {
             <a href="#">Gallery</a>
           </li>
           <li className="main-menu__item">
-            <a href="#consultation" type="submit">Consultation</a>
+            <a href="#" type="submit">Consultation</a>
           </li>
           <li className="main-menu__item">
             <a href="#">Testimonials</a>
