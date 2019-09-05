@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.scss';
+import Hero from './components/hero';
 
 function App() {
   return (
-    <div className="page">
-      Hello React!
-    </div>
+    <Hero />
   );
 }
 
