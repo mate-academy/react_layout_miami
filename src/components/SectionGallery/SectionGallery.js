@@ -1,4 +1,5 @@
 import React from 'react';
+import './SectionGallery.scss';
 
 export const SectionGallery = () => {
   return (

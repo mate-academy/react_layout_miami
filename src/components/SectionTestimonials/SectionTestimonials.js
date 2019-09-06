@@ -1,4 +1,5 @@
 import React from 'react';
+import './SectionTestimonials.scss';
 
 const SectionTestimonials = () => {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import './SectionBest.scss';
 
 const SectionBest = () => {
   return (
