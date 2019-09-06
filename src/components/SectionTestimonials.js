@@ -23,7 +23,9 @@ const SectionTestimonials = () => {
             <p className="testimonials__person">
               Stev Joni
               <br />
-              <span className="italic-text"> Founder Lucoil</span>
+              <span className="italic-text">
+                Founder Lucoil
+              </span>
             </p>
             <p className="section__text">
               Nice work, Certificates National Association of Realtors (USA).
@@ -38,13 +40,15 @@ const SectionTestimonials = () => {
             <p className="testimonials__person">
               Alisher Usmanov
               <br />
-              <span className="italic-text">  Ural Steel </span>
+              <span className="italic-text">
+                Founder Lucoil
+              </span>
             </p>
             <p className="section__text">
               My soul is illuminated by an unearthly joy, as these beautiful
               spring morning, which I enjoy with all my heart.
               <br />
-              I'm all alone and blissfully happy in the local edge.
+              I&quote;m all alone and blissfully happy in the local edge.
               <br />
               as if created for the likes of me.
             </p>
@@ -58,7 +62,9 @@ const SectionTestimonials = () => {
             <p className="testimonials__person">
               Алексей Мордашов
               <br />
-              <span className="italic-text">ГазПром </span>
+              <span className="italic-text">
+                Founder Lucoil
+              </span>
             </p>
             <p className="section__text">
               When my lovely valley of steam rises and half-day sun is above
