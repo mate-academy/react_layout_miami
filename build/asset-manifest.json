@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_layout_miami/static/css/main.819e4dd6.chunk.css",
+    "main.js": "/react_layout_miami/static/js/main.69112e32.chunk.js",
+    "main.js.map": "/react_layout_miami/static/js/main.69112e32.chunk.js.map",
+    "runtime~main.js": "/react_layout_miami/static/js/runtime~main.59dfb4f6.js",
+    "runtime~main.js.map": "/react_layout_miami/static/js/runtime~main.59dfb4f6.js.map",
+    "static/js/2.ec295295.chunk.js": "/react_layout_miami/static/js/2.ec295295.chunk.js",
+    "static/js/2.ec295295.chunk.js.map": "/react_layout_miami/static/js/2.ec295295.chunk.js.map",
+    "index.html": "/react_layout_miami/index.html",
+    "precache-manifest.543689a629295b65d28796e909f1d2fa.js": "/react_layout_miami/precache-manifest.543689a629295b65d28796e909f1d2fa.js",
+    "service-worker.js": "/react_layout_miami/service-worker.js",
+    "static/css/main.819e4dd6.chunk.css.map": "/react_layout_miami/static/css/main.819e4dd6.chunk.css.map"
+  }
+}

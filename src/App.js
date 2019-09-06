@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.scss';
+import Wrapper from './components/Wrapper';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="page">
-      Hello ViCtor!
+    <div>
+      <Wrapper />
+      <Footer />
     </div>
   );
 }
