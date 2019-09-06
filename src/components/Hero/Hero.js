@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.scss';
+import Nav from '../Nav/Nav';
 
 export const Hero = () => {
   return (
@@ -15,14 +16,7 @@ export const Hero = () => {
       </header>
 
       <div className="container">
-        <ul className="nav">
-          <li><a href="/" className="header__link">Home</a></li>
-          <li><a href="/" className="header__link">About Us</a></li>
-          <li><a href="/" className="header__link">gallery</a></li>
-          <li><a href="/" className="header__link">consultation</a></li>
-          <li><a href="/" className="header__link">testimonials</a></li>
-          <li><a href="/" className="header__link">Contacts</a></li>
-        </ul>
+        <Nav />
       </div>
     </div>
   );
