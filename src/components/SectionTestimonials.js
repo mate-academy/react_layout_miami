@@ -64,12 +64,12 @@ const SectionTestimonials = () => {
               When my lovely valley of steam rises and half-day sun is above
               an impermeable. thicket.
             </p>
-            <a id="section-contact" href="/"></a>
+            <a className="anchor" id="section-contact" href="/">.</a>
           </div>
         </div>
       </div>
     </div>
-);
+  );
 };
 
 export default SectionTestimonials;

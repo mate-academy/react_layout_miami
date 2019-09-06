@@ -29,6 +29,10 @@ a {
   cursor: pointer;
 }
 
+.anchor {
+  display: none;
+}
+
 .wrapper {
   z-index: 200;
   position: relative;
