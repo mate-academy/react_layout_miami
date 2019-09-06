@@ -8,7 +8,7 @@ const SectionConsultation = () => {
           Consultation
           <img
             className="section__crown"
-            src="/images/blue_crown.svg"
+            src="images/blue_crown.svg"
             alt="section title"
           />
         </div>

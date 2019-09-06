@@ -8,7 +8,7 @@ const SectionTestimonials = () => {
           Testimonials
           <img
             className="section__crown"
-            src="/images/blue_crown.svg"
+            src="images/blue_crown.svg"
             alt="section title"
           />
         </div>
@@ -17,7 +17,7 @@ const SectionTestimonials = () => {
           <div className="testimonials__item">
             <img
               className="testimonials__photo"
-              src="/images/testimonials/test_1.png"
+              src="images/testimonials/test_1.png"
               alt="person"
             />
             <p className="testimonials__person">
@@ -34,7 +34,7 @@ const SectionTestimonials = () => {
           <div className="testimonials__item">
             <img
               className="testimonials__photo"
-              src="/images/testimonials/test_2.png"
+              src="images/testimonials/test_2.png"
               alt="person"
             />
             <p className="testimonials__person">

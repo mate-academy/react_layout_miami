@@ -8,20 +8,20 @@ const SectionGallery = () => {
           Gallery
           <img
             className="section__crown"
-            src="/images/blue_crown.svg"
+            src="images/blue_crown.svg"
             alt="section title"
           />
         </div>
         <div className="hause hause--right">
           <div className="hause__photo">
             <img
-              src="/images/gallery/hause_1_1.png"
+              src="images/gallery/hause_1_1.png"
               alt="hause"
             />
           </div>
           <div className="hause__photo">
             <img
-              src="/images/gallery/hause_1_2.png"
+              src="images/gallery/hause_1_2.png"
               alt="hause"
             />
           </div>
@@ -32,10 +32,10 @@ const SectionGallery = () => {
         </div>
         <div className="hause hause--center">
           <div className="hause__photo">
-            <img src="/images/gallery/hause_2_1.png" alt="hause" />
+            <img src="images/gallery/hause_2_1.png" alt="hause" />
           </div>
           <div className="hause__photo">
-            <img src="/images/gallery/hause_2_2.png" alt="hause" />
+            <img src="images/gallery/hause_2_2.png" alt="hause" />
           </div>
           <h2 className="hause__title">
             Marina Palms /
@@ -47,7 +47,7 @@ const SectionGallery = () => {
             <img src="/images/gallery/hause_3_1.png" alt="hause" />
           </div>
           <div className="hause__photo">
-            <img src="/images/gallery/hause_3_2.png" alt="hause" />
+            <img src="images/gallery/hause_3_2.png" alt="hause" />
           </div>
           <h2 className="hause__title">
             Marina Palms /
