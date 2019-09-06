@@ -44,7 +44,7 @@ export const SectionGallery = () => {
         </div>
         <div className="hause hause--left">
           <div className="hause__photo">
-            <img src="/images/gallery/hause_3_1.png" alt="hause" />
+            <img src="images/gallery/hause_3_1.png" alt="hause" />
           </div>
           <div className="hause__photo">
             <img src="images/gallery/hause_3_2.png" alt="hause" />

@@ -56,7 +56,7 @@ const SectionTestimonials = () => {
           <div className="testimonials__item">
             <img
               className="testimonials__photo"
-              src="/images/testimonials/test_3.png"
+              src="images/testimonials/test_3.png"
               alt="person"
             />
             <p className="testimonials__person">
