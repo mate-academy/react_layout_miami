@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Wrapper from './components/Wrapper';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
