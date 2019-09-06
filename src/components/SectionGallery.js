@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SectionGallery = () => {
+export const SectionGallery = () => {
   return (
     <div className="section gallery">
       <div className="container">

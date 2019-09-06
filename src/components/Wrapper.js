@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './Hero';
+import Hero from './Hero/Hero';
 import SectionBest from './SectionBest';
 import SectionGallery from './SectionGallery';
 import SectionConsultation from './SectionConsultation';

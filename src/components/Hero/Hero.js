@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hero.scss';
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
           <li><a href="/" className="header__link">gallery</a></li>
           <li><a href="/" className="header__link">consultation</a></li>
           <li><a href="/" className="header__link">testimonials</a></li>
-          <li><a href="#section-contact" className="header__link">Contacts</a></li>
+          <li><a href="/" className="header__link">Contacts</a></li>
         </ul>
       </div>
     </div>
