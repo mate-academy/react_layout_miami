@@ -1,15 +1,33 @@
 import React from 'react';
 import './Nav.scss';
+import NavLink from '../NavLink/NavLink';
+
+
+const navItem = [
+  {
+    name: 'Home', href: '/',
+  },
+  {
+    name: 'About Us', href: '/',
+  },
+  {
+    name: 'gallery', href: '/',
+  },
+  {
+    name: 'consultation', href: '/',
+  },
+  {
+    name: 'testimonials', href: '/',
+  },
+  {
+    name: 'Contacts', href: '/',
+  },
+];
 
 const Nav = () => {
   return (
     <ul className="nav">
-      <li><a href="/" className="header__link">Home</a></li>
-      <li><a href="/" className="header__link">About Us</a></li>
-      <li><a href="/" className="header__link">gallery</a></li>
-      <li><a href="/" className="header__link">consultation</a></li>
-      <li><a href="/" className="header__link">testimonials</a></li>
-      <li><a href="/" className="header__link">Contacts</a></li>
+      <NavLink navItem={navItem} />
     </ul>
   );
 };
