@@ -1,4 +1,5 @@
 import React from 'react';
+import apart__1 from '../../images/apart__1.jpg';
 
 function Gallery() {
   return (
@@ -11,7 +12,7 @@ function Gallery() {
           <div className="apart apart--mod-right">
             <div className="apart__photos">
               <div className="apart__photo">
-                <img className="apart__photo-image" src="./images/apart__1.jpg" alt=""/>
+                <img className="apart__photo-image" src={apart__1} alt=""/>
               </div>
               <div className="apart__photo">
                 <img className="apart__photo-image" src="./images/apart__2.jpg" alt=""/>
