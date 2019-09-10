@@ -1,0 +1,23 @@
+
+> react_task-boilerplate-ci@0.1.0 build C:\Users\wer7w\Desktop\home_work\Новая папка\react_layout_miami
+> react-scripts build "add" "." "commit" "push" "origin" "master" "run" "deploy"
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  38.5 KB  build\static\js\2.be3010fa.chunk.js
+  2.93 KB  build\static\js\main.7da1d065.chunk.js
+  2.83 KB  build\static\css\main.2133b262.chunk.css
+  763 B    build\static\js\runtime~main.d653cc00.js
+
+The project was built assuming it is hosted at ./.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+
