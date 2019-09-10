@@ -21,12 +21,9 @@ function Consultation() {
             early twentieth century, microforms, found a distant historical
           </p>
         </div>
-        {/* section__left */}
         <div className="consultation__right">
           <Form />
-          {/* ./ form */}
         </div>
-        {/* ./ section right */}
       </div>
       {/* ./container */}
     </div>

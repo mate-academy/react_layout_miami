@@ -45,9 +45,7 @@ function Best() {
             </strong>
           </p>
         </div>
-        {/* ./best__text */}
       </div>
-      {/* ./container */}
     </section>
   );
 }

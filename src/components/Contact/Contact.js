@@ -8,12 +8,9 @@ export default function Contact() {
   return (
     <section className="contact">
       <CenterTitle title="Contact" />
-      {/* ./ center-titles */}
       <div className="container contact__flex-wrapper">
         <ContactLeft />
-        {/* section__left */}
         <ContactRight />
-        {/* ./ section right */}
       </div>
     </section>
   );

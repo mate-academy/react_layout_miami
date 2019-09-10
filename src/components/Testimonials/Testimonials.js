@@ -11,7 +11,6 @@ function Testimonials() {
   return (
     <section className="testimonials">
       <CenterTitle title="Testimonials" />
-      {/* ./ center-titles */}
       <div className="container">
         <div className="testimonials__items">
           {/* 1 item */}
@@ -44,7 +43,6 @@ function Testimonials() {
           />
           {/* ./ 3 item */}
         </div>
-        {/* ./ testimonials__items */}
       </div>
     </section>
   );
