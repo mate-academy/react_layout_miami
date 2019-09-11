@@ -1,0 +1,43 @@
+.best {
+  &_motto {
+    float: left;
+    width: 33%;
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+    strong {
+      font-weight: 600;
+    }
+    span {
+      font-weight: 100;
+      color: #00aaef;
+      cursor: pointer;
+    }
+  }
+  &_text {
+    float: right;
+    width: 66%;
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .best {
+    &_motto {
+      width: auto;
+      float: none;
+      margin-bottom: 20px;
+      br {
+        display: none;
+      }
+    }
+
+    &_text {
+      width: auto;
+      float: none;
+      margin-left: 10px;
+    }
+  }
+}

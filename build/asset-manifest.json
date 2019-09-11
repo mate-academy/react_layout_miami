@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react_layout_miami/static/css/main.f6c46895.chunk.css",
+    "main.js": "/react_layout_miami/static/js/main.355cd408.chunk.js",
+    "main.js.map": "/react_layout_miami/static/js/main.355cd408.chunk.js.map",
+    "runtime~main.js": "/react_layout_miami/static/js/runtime~main.59dfb4f6.js",
+    "runtime~main.js.map": "/react_layout_miami/static/js/runtime~main.59dfb4f6.js.map",
+    "static/js/2.ec295295.chunk.js": "/react_layout_miami/static/js/2.ec295295.chunk.js",
+    "static/js/2.ec295295.chunk.js.map": "/react_layout_miami/static/js/2.ec295295.chunk.js.map",
+    "index.html": "/react_layout_miami/index.html",
+    "precache-manifest.c58b2e53b337d708590ab1f102d723c4.js": "/react_layout_miami/precache-manifest.c58b2e53b337d708590ab1f102d723c4.js",
+    "service-worker.js": "/react_layout_miami/service-worker.js",
+    "static/css/main.f6c46895.chunk.css.map": "/react_layout_miami/static/css/main.f6c46895.chunk.css.map",
+    "static/media/Header.scss": "/react_layout_miami/static/media/bg.41a73d7d.png",
+    "static/media/Footer.scss": "/react_layout_miami/static/media/footer.03963ebb.png",
+    "static/media/Testimonials.scss": "/react_layout_miami/static/media/quote.13242e85.svg"
+  }
+}
