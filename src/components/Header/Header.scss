@@ -1,0 +1,115 @@
+.hero {
+  background-image: url("../../images/bg.png");
+  background-size: cover;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  .container {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+  }
+}
+
+.header {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  &_logo {
+    position: absolute;
+    top: -46px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    img {
+      font-size: 80px;
+      fill: #fff;
+    }
+  }
+  &_phone {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  &_call {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    &:hover {
+      opacity: 0.6;
+      border-bottom: 1px dashed #fff;
+    }
+  }
+}
+
+.nav {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+  }
+  &_elem {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .hero {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(#000, 0.5);
+      content: "";
+    }
+  }
+
+  .header {
+    top: 30px;
+
+    &_logo {
+      left: 0;
+      transform: none;
+      top: 0;
+    }
+
+    &_phone {
+      float: right;
+      margin-bottom: 10px;
+      padding-top: 10px;
+    }
+
+    &_call {
+      clear: right;
+    }
+  }
+
+  .nav {
+    position: static;
+    display: block;
+    padding-top: 200px;
+
+    &_elem {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+}

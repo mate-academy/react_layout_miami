@@ -1,0 +1,32 @@
+.footer {
+  height: 540px;
+  background-image: url("../../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  &_copy {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    bottom: 66px;
+    left: 0;
+    right: 0;
+  }
+  &_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 78px;
+    img {
+      fill: #fff;
+    }
+  }
+}

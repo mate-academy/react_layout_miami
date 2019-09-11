@@ -1,0 +1,43 @@
+.apart {
+  margin-bottom: 30px;
+  h2 {
+    font-weight: 600;
+    span {
+      font-weight: 300;
+      color: #1cabec;
+      cursor: pointer;
+    }
+  }
+  &_photos {
+    margin-bottom: 12px;
+    display: flex;
+  }
+  &_photo {
+    height: 260px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    flex: 1;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+  &_mod-left &_photo {
+    &:last-child {
+      flex: 2;
+    }
+  }
+  &_mod-right &_photo {
+    &:first-child {
+      flex: 2;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .apart {
+    &_photo {
+      height: 100px;
+    }
+  }
+}
