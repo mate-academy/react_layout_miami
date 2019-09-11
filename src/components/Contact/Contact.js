@@ -16,7 +16,7 @@ const Contact = () => (
         <p>
           8 800 678 78 78
           <br />
-8 800 700 98 98
+          8 800 700 98 98
         </p>
         <p>
           400 first ave. n.
@@ -40,7 +40,6 @@ const Contact = () => (
               className="textarea"
               name=""
               placeholder="Message"
-              id=""
               cols="20"
               rows="10"
             />
