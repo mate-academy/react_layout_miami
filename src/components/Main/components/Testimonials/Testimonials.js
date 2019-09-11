@@ -40,7 +40,7 @@ const Testimonials = () => (
               My soul is illuminated by an unearthly joy, as these
               beautiful spring morning, which I enjoy with all my heart.
               <br />
-              I'm all alone and blissfully happy in the local edge.
+              I\'m all alone and blissfully happy in the local edge.
               <br />
               as if created for the likes of me.
             </p>

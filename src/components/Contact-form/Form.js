@@ -1,11 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from '../Button/Button';
 
 import './Form.scss';
 
-// eslint-disable-next-line no-shadow
 const ContactForm = (props) => {
-  const btnName = props.btnName;
+  const { btnName } = props;
   return (
     <form className="form" action="#">
       <div className="form__field">
@@ -33,6 +33,14 @@ const ContactForm = (props) => {
       <Button btnName={btnName} />
     </form>
   );
+};
+
+ContactForm.defaultProps = {
+  btnName: 'button',
+};
+
+ContactForm.propTypes = {
+  btnName: PropTypes.string,
 };
 
 export default ContactForm;

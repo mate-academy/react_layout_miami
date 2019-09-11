@@ -53,3 +53,41 @@
     }
   }
 }
+
+@media (max-width: 1023px) {
+  .testimonials .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimonials .container {
+    width: 640px;
+  }
+}
+
+@media (max-width: 679px) {
+  .testimonials .container {
+    width: 480px;
+  }
+
+  .testimonials__list {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .testimonials .container {
+    width: 380px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 399px) {
+  .testimonials .container {
+    width: 280px;
+
+    .section__title {
+      font-size: 40px;
+    }
+  }
+}

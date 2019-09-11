@@ -33,33 +33,11 @@
   }
 }
 
-.apart-mod-left {
-  display: grid;
-  grid-template-columns: 64.5% 33.3%;
-  grid-template-rows: 263px 30px;
-  grid-gap: 20px;
-  padding-top: 74px;
-}
-
-.apart-mod-center {
-  display: grid;
-  grid-template-columns: 49% 49%;
-  grid-template-rows: 261px 30px;
-  grid-gap: 20px;
-}
-
-.apart-mod-right {
-  display: grid;
-  grid-template-columns: 33.3% 64.5%;
-  grid-template-rows: 260px 30px;
-  grid-gap: 20px;
-}
-
 .apart__photo {
   img {
     display: block;
     width: 100%;
-    height: 262px;
+    height: 150px;
     transition: 0.4s;
 
     &:hover {
@@ -81,5 +59,131 @@
 
   span {
     color: $main-accent-color;
+  }
+}
+
+@media (min-width: 320px) {
+  .gallery .container {
+    width: 87.5%;
+
+    .section__title {
+      font-size: 40px;
+    }
+  }
+
+  .apart-mod-left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding-top: 74px;
+  }
+
+  .apart-mod-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .apart-mod-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 400px) {
+  .apart-mod-left {
+    display: grid;
+    grid-template-columns: 64.5% 33.3%;
+    grid-gap: 20px;
+    padding-top: 74px;
+  }
+
+  .apart-mod-center {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 20px;
+  }
+
+  .apart-mod-right {
+    display: grid;
+    grid-template-columns: 33.3% 64.5%;
+    grid-gap: 20px;
+  }
+
+  .apart__photo {
+    img {
+      height: 120px;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .gallery .container {
+    width: 480px;
+  }
+
+  .apart__photo {
+    img {
+      height: 150px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .gallery .container {
+    width: 640px;
+  }
+
+  .apart__photo {
+    img {
+      height: 200px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .gallery .container {
+    width: 768px;
+  }
+
+  .apart__photo {
+    img {
+      height: 230px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery .container {
+    width: 960px;
+  }
+
+  .apart-mod-left {
+    display: grid;
+    grid-template-columns: 64.5% 33.3%;
+    grid-template-rows: 263px 30px;
+    grid-gap: 20px;
+    padding-top: 74px;
+  }
+
+  .apart-mod-center {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 261px 30px;
+    grid-gap: 20px;
+  }
+
+  .apart-mod-right {
+    display: grid;
+    grid-template-columns: 33.3% 64.5%;
+    grid-template-rows: 260px 30px;
+    grid-gap: 20px;
+  }
+
+  .apart__photo {
+    img {
+      height: 262px;
+    }
   }
 }

@@ -12,7 +12,7 @@ const Gallery = () => (
         <div className="apart__photo">
           <a href="#">
             <img
-              src="http://localhost:3000/images/Layer-46.png"
+              src="./images/Layer-46.png"
               alt="Marina Palms apartment"
             />
           </a>
@@ -20,7 +20,7 @@ const Gallery = () => (
         <div className="apart__photo">
           <a href="#">
             <img
-              src="http://localhost:3000/images/Layer-47.png"
+              src="./images/Layer-47.png"
               alt="Marina Palms apartment"
             />
           </a>
@@ -34,7 +34,7 @@ const Gallery = () => (
         <div className="apart__photo">
           <a href="#">
             <img
-              src="http://localhost:3000/images/Layer48.png"
+              src="./images/Layer48.png"
               alt="Edition Residens"
             />
           </a>
@@ -42,7 +42,7 @@ const Gallery = () => (
         <div className="apart__photo">
           <a href="#">
             <img
-              src="http://localhost:3000/images/Layer50.png"
+              src="./images/Layer50.png"
               alt="Edition Residens"
             />
           </a>
@@ -56,7 +56,7 @@ const Gallery = () => (
         <div className="apart__photo">
           <a href="#">
             <img
-              src="http://localhost:3000/images/Layer51.png"
+              src="./images/Layer51.png"
               alt="Faena House"
             />
           </a>
@@ -64,7 +64,7 @@ const Gallery = () => (
         <div className="apart__photo">
           <a href="#">
             <img
-              src="http://localhost:3000/images/Layer49.png"
+              src="./images/Layer49.png"
               alt="Faena House"
             />
           </a>

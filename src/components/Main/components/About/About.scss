@@ -44,3 +44,55 @@
 .about__us-guaranty {
   font-weight: 500;
 }
+
+@media (max-width: 1023px) {
+  .about__us .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about__us .container {
+    width: 640px;
+  }
+}
+
+@media (max-width: 679px) {
+  .about__us {
+    .container {
+      width: 480px;
+    }
+  }
+
+  .container--about__us {
+    flex-flow: row wrap;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .about__us {
+    .container {
+      width: 380px;
+    }
+  }
+
+  .container--about__us {
+    flex-flow: row wrap;
+  }
+
+  .promo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 399px) {
+  .about__us {
+    .container {
+      width: 280px;
+    }
+  }
+
+  .promo {
+    width: 100%;
+  }
+}

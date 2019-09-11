@@ -14,7 +14,7 @@ const Header = () => (
         </a>
         <a href="#" className="header__logo">
           <img
-            src="http://localhost:3000/images/dark-back.png"
+            src="./images/dark-back.png"
             alt="Miami logo"
             title="Miami"
           />

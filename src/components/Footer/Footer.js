@@ -6,7 +6,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer__logo" />
     <div className="footer__copy">
-        © 2013 Miami.
+      © 2013 Miami.
     </div>
   </footer>
 );
