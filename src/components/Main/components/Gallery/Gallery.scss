@@ -162,7 +162,7 @@
   .apart-mod-left {
     display: grid;
     grid-template-columns: 64.5% 33.3%;
-    grid-template-rows: 263px 30px;
+    grid-template-rows: 263px 40px;
     grid-gap: 20px;
     padding-top: 74px;
   }
@@ -170,14 +170,14 @@
   .apart-mod-center {
     display: grid;
     grid-template-columns: 49% 49%;
-    grid-template-rows: 261px 30px;
+    grid-template-rows: 261px 40px;
     grid-gap: 20px;
   }
 
   .apart-mod-right {
     display: grid;
     grid-template-columns: 33.3% 64.5%;
-    grid-template-rows: 260px 30px;
+    grid-template-rows: 260px 40px;
     grid-gap: 20px;
   }
 
