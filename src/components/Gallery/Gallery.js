@@ -39,7 +39,6 @@ function Gallery() {
           </button>
         </div>
       </div>
-      {/* ./container */}
     </section>
   );
 }

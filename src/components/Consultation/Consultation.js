@@ -25,7 +25,6 @@ function Consultation() {
           <Form />
         </div>
       </div>
-      {/* ./container */}
     </div>
   );
 }
