@@ -1,0 +1,23 @@
+.footer {
+  min-height: 500px;
+  background-image: url('../../images/footer-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__copy {
+    position: absolute;
+    bottom: 55px;
+    color: #fff;
+  }
+}

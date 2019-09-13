@@ -1,0 +1,46 @@
+.center-titles {
+  position: absolute;
+  left: 50%;
+  top: -21.3px;
+  transform: translate(-50%);
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 36px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+
+  &__icon {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      transform: translate(0, 50%);
+      right: 0;
+      width: 40%;
+      height: 2px;
+      background-color: #00aaef;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      transform: translate(0, 50%);
+      left: 0;
+      width: 40%;
+      height: 2px;
+      background-color: #00aaef;
+    }
+  }
+}

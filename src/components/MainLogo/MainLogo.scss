@@ -1,0 +1,12 @@
+.main-logo {
+  width: 115px;
+  height: auto;
+
+  @media screen and (max-width: 600px) {
+    width: 80px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
